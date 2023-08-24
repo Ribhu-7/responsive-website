@@ -1,0 +1,490 @@
+/*0-749px*/
+/*checked with iphone-se*/
+@media only screen and (max-width:750px) {
+      
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+    } 
+    html{
+        background-color: rgb(238, 247, 253);
+    }
+    header{
+        background-color: rgb(69, 69, 248);
+        height: 40rem;
+        width: 250vw;
+    }
+    .navigation{
+        background-color: rgb(220, 235, 241);
+        height: 4rem;
+        width: 100%;
+    }
+    .logo{
+        color: rgb(80, 80, 241);
+        position: relative;
+        top: 1rem;
+        left: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .navbar{
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+        margin-right: 1rem;
+        margin-top: 0.8rem;
+        display: none;
+    }
+    ul{
+        list-style: none;
+    }
+    .heading{
+        display: flex;
+        color: white;
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .head-container{
+        width: 30rem;
+        /* padding: 10px; */
+        line-height: 1rem;
+    }
+    .hack{
+        font-size: 1.5rem;
+        width: 21rem;
+        height: 4rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        line-height: 1.5rem;
+        padding-top: 0.1rem;
+    }
+    .super{
+        width: 22rem;
+    }
+    .headpic{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+        /* margin-right: 2rem; */
+        border: 1px solid transparent;
+        border-radius: 2rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .btn{
+        height: 50px;
+        width: 250px;
+        background-color: white;
+        border: 1px solid rgb(217, 207, 250);
+        border-radius: 10rem;
+        text-align: center;
+        padding: 0.8rem;
+        margin-top: 20px;
+        color: rgb(100, 100, 243);
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+    .btn1{
+        display: none;
+    }
+    .btn2{
+        visibility: visible;
+        width: 20rem;
+    }
+    .menu{
+        visibility: visible;
+        font-size: 150%;
+        position: relative;
+        left: 20rem;
+        bottom: 0.5rem;
+        color: blue;
+    }
+    /*------------------feature-------------*/
+    .feature{
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .feature-container{
+          margin: 1rem 2rem 0rem;
+          /* display: flex; */
+          width: 20rem;
+          height: 7rem;
+          /* border: 1px solid black; */
+          /* justify-content: space-evenly; */
+          color: rgb(85, 85, 250);
+          /* padding: 0.5rem 3rem; */
+          /* gap: 50px; */
+          /* line-height: 100px; */
+          text-align:left;
+    }
+    .forbes{
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* padding: 10px; */
+    }
+    .economic{
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 0rem; 
+        font-weight: 100;
+        /* padding: 10px; */
+        /* width: 50rem;
+        height: 1rem; */
+    }
+    .forbes1{
+        display: none;
+    }
+    .mint{
+        font-size: 1.4rem;
+        margin-right: 0rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .times{
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+        /* margin-right: 10px; */
+        font-weight: 100;
+        margin-left: 1.2rem;
+        /* margin: 10px 55px; */
+    }
+    .about-me{
+        margin-top: 0rem;
+    }
+    .entrep{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .about-pic{
+        margin-top: 30px;
+        border:1px solid transparent;
+        border-radius: 50%;
+        height: 20rem;
+    }
+    .aboutdes{
+        font-weight: 100;
+        line-height: 2rem;
+        text-align: center;
+        /* padding: 2rem 10rem; */
+        height: 25rem;
+        width: 22rem;
+        padding: 0.1rem;
+    }
+    .social-link {
+        display: flex;
+        width: 100%;
+        gap: 2rem;
+        justify-content:center;
+        margin-left: 5rem;
+        padding-right: 10rem;
+      }
+      .icon{
+        color: blue;
+        text-align: center;
+        font-size: 200%;
+      }
+    
+    /*------services---*/
+    
+    .services{
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 20px;
+      }
+      
+      .journey{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 0.2rem;
+        margin-top: 30px;
+      }
+      .btn-com{
+        background-color: blue;
+        color: white;
+        padding: 0.2rem;
+        width: 7rem;
+        font-size: 1rem;
+        height: 2rem;
+        margin: 0rem;
+      }
+      .com{
+        color: white;
+      }
+      .btn-course{
+        padding: 0.2rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 1rem;
+        margin: 0rem;
+      }
+      .service{
+        color: black;
+        margin: 0rem;
+      }
+      .head-container{
+        font-style: normal;
+        font-size: 16px;
+        text-align: start;
+      }
+      .club{
+        text-align: start;
+        font-size: 1.6rem;
+        margin: 1rem 0rem;
+        padding: 0rem;
+      }
+      .points{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin: 1rem 3rem 2rem 0rem;
+        font-weight: bold;
+        font-size: 0.7rem;
+      }
+      .check{
+          border: 2px solid black;
+          border-radius: 50%;
+          background-color: black;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          margin-right: 1rem;
+      }
+      .btn-jc{
+        background-color: blue;
+        color: white;
+        /* display: none; */
+      }
+      .btn-jtc{
+        display: none;
+      }
+      .servepic{
+        height: 20rem;
+        border-radius: 2rem;
+      }
+      .courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1.5rem;
+        gap: 1rem;
+      }
+      .course{
+        height: 22rem;
+        width: 20rem;
+        background-color: white;
+        border: 1px solid transparent;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 14px;
+        text-align: start;
+      }
+      .course-img{
+        border-radius: 2rem 2rem 0rem 0rem;
+      }
+      .course>h5{
+        text-align: start;
+        font-size: 18px;
+        margin: 1rem 0.1rem;
+      }
+    .btn-buy{
+       width: 100%;
+       padding: 0.9rem;
+       margin-top: 1.5rem;
+    }
+    .pred{
+        height: 14rem;
+    }
+    .p-icon{
+        font-size: 200%;
+        color: blue;
+    }
+    .slots{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clock{
+        margin: 0.2rem;
+    }
+    /*----testimonial*/
+    .testimonial{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .test{
+        padding: 1rem;
+        line-height: 20px;
+        height: 16rem;
+        width: 20rem;
+    }
+    .rustom{
+        text-align: center;
+        margin: 1rem;
+    }
+    .rustom-img{
+        height: 3rem;
+        width: 3rem;
+        text-align: center;
+        border-radius: 50%;
+    }
+    /*----media*/
+    .media{
+        text-align: center;
+        margin: 1rem;
+    }
+    .media-img{
+        margin: 1rem;
+        border-radius: 2rem;
+        width: 20rem;
+        height: 15rem;
+    }
+    
+    /*--getapp*/
+    .getapp{
+       width: 102vw;
+       height: 40rem;
+       background-color: rgb(67, 67, 249);
+       border-radius: 90rem 90rem 0rem 0rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       padding: 2rem;
+       color: white;
+       line-height: 50px;
+    }
+    .getapp>.journey{
+         font-size: 1.8rem;
+         width: 25rem;
+    }
+    .getapp>.btn{
+        width: 20rem;
+        padding: 0rem;
+    }
+    .btn-ga{
+        display: none;
+    }
+    .btn-ga1{
+        visibility: visible;
+    }
+    .devices{
+        display: flex;
+        /* justify-content: space-between; */
+        margin: 1rem;
+        gap: 0.5rem;
+    }
+    .mobile{
+        height: 15rem;
+        border-radius: 1rem;
+    }
+    .tablet{
+        padding-top:5rem;
+        padding-bottom: 1.2rem;
+        height: 16rem;
+        width: 12rem;
+        border-radius: 1rem;
+    }
+    /**contactus*/
+    .contact-us{
+        height: 25rem;
+        width: 102vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+    .contact-us>.journey{
+        width: 22rem;
+        height: 5rem;
+        margin: 1rem;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 1.5rem;
+        margin: 1rem;
+        width: 20rem;
+        margin-top: 0rem;
+        padding: 0rem;
+    }
+    .contact{
+        display: flex;
+        gap: 0.6rem;
+    }
+    .contact>ul{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: gray;
+    }
+    .link{
+        color: black;
+        font-weight: bold;
+    }
+    /*--footer*--*/
+    footer{
+        height: 20rem;
+        width: 102vw;
+        background-color: rgb(68, 68, 247);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo{
+        color: white;
+        padding: 3rem;
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-right: 2rem;
+    }
+    .f-icon{
+        color: white;
+        font-size: 200%;
+        /* margin-left: 1rem; */
+    }
+    footer>.social-link{
+        display: flex;
+        gap: 1rem;
+        margin-left: 10rem;
+        margin-top: 0rem;
+    }
+    .store{
+        margin: 1.4rem;
+        margin-right: 2.5rem;
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .store-img{
+        height: 2.0rem;
+        border-radius: 0.5rem;
+    }
+    footer>hr{
+        visibility: visible;
+    }
+    .copyright{
+        display: flex; 
+        color: white; 
+        gap: 2rem;
+        margin-right: 10rem;
+        width: 10rem;
+        height: 2rem;
+        margin-top: 0.5rem;
+    }
+    
+  }
